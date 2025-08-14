@@ -1,0 +1,147 @@
+{
+  "LoadingSpinner": "Loading language",
+  "Header": {
+    "nav": {
+      "home": { "name": "Home", "href": "/" },
+      "services": { "name": "Services", "href": "/services" },
+      "blog": { "name": "Blog", "href": "/articles" },
+      "projects": { "name": "Projects", "href": "/projects" },
+      "about": { "name": "About", "href": "/about" },
+      "contact": { "name": "Contact", "href": "/contact" }
+    }
+  },
+  "LastArticlesSc": {
+    "Heading": {
+      "white": "Latest",
+      "primry": "Articles"
+    },
+    "Reed_All": "All articles"
+  },
+  "Articles_Page": {
+    "Error_Message": "An error occurred while loading Articles",
+    "Filter": "Filter",
+    "all": "All",
+    "No_Articles": "No articles to display",
+    "All_Displayed": "All articles displayed"
+  },
+  "Articles_Card": {
+    "Read_btn": "Read More"
+  },
+  "about_me_sc": {
+    "head": "About me",
+    "title": "I'm Yossef Weal",
+    "description": "I'm a UI/UX designer and front-end developer focused on building user-friendly websites and WordPress solutions. I help startups and businesses turn ideas into intuitive digital experiences.",
+    "skills": [
+      "WordPress Development",
+      "Front-end Development",
+      "UI / UX Design"
+    ]
+  },
+  "Tech_Stack_Heading": {
+    "white": "My Tech",
+    "primry": "Stack"
+  },
+  "Projects_Card": {
+    "Read_btn": "Read more"
+  },
+  "Last_Projects_Heading": {
+    "white": "Explore My",
+    "primry": "Last Projects"
+  },
+  "Last_Projects_AC": "Browse All Projects",
+  "Action_Buttons": {
+    "cv": "Download CV",
+    "contact": "Contact Info"
+  },
+  "Projects_Page": {
+    "all": "All",
+    "Filter": "Filter :",
+    "No_Projects": "There are no projects in this section.",
+    "All_Displayed": "All projects are displayed"
+  },
+  "Project_Page": {
+    "error": "An error occurred while loading this project",
+    "showMore": "Show More",
+    "showLess": "Show Less",
+    "technologies": "Technologies",
+    "links": "Links",
+    "live": "Live",
+    "behance": "Behance",
+    "repo": "Repo"
+  },
+  "Services_Page": {
+    "Heding": {
+      "white": "All",
+      "primry": "Services"
+    },
+    "cards_Services": {
+      "text_Button": "Contact me on this service"
+    },
+    "Services_Sc": {
+      "Heding": {
+        "white": "Our",
+        "primry": "Services"
+      },
+      "SlidersContect": {
+        "design": {
+          "img": "Design-UI&UX.svg",
+          "title": "Innovative and Unique Design UI&UX",
+          "description": "We provide unique and creative designs that reflect your brand's identity and offer an exceptional user experience."
+        },
+        "security": {
+          "img": "Security-Analysis.svg",
+          "title": "Thorough Security Analysis",
+          "description": "We conduct in-depth checks to ensure your data and applications are protected from threats and vulnerabilities."
+        },
+        "followup": {
+          "img": "Continuous-follo.svg",
+          "title": "Continuous follow-up of the project",
+          "description": "We provide a tailored system to track your project's progress and offer accurate, up-to-date reports."
+        },
+        "breakthrough": {
+          "img": "Achieve-breakthrough.svg",
+          "title": "Achieve a breakthrough in your project",
+          "description": "We help propel your project forward with innovative and advanced solutions, delivering outstanding results."
+        },
+        "scalable": {
+          "img": "Scalable-Solutions.svg",
+          "title": "Scalable Solutions",
+          "description": "Our custom solutions are scalable to accommodate growth and increase the capacity to handle a larger number of users or data without impacting the speed or stability of the system."
+        },
+        "maintenance": {
+          "img": "Effortless-Maintenance.svg",
+          "title": "Effortless Maintenance, Maximum Performance",
+          "description": "Easily maintainable solutions, which means that the system or application we develop will be able to be flexibly updated and modified without affecting its performance."
+        },
+        "reliable": {
+          "img": "Reliable-Solutions.svg",
+          "title": "Reliable Solutions, Uninterrupted Performance",
+          "description": "Highly reliable solutions, which means that the system or application we provide will always be available to operate continuously without interruptions or errors."
+        }
+      }
+    }
+  },
+  "About_Page": {
+    "error": "An error occurred while loading About Page"
+  },
+  "Contact_Me_Page": {
+    "error": "An error occurred while loading Contact Page"
+  },
+  "Login_Page": {
+    "title": "Login",
+    "email": "Email Address",
+    "password": "Password",
+    "login": "Login",
+    "no_account": "Don't have an account?",
+    "signup": "Sign up"
+  },
+  "Signup_Page": {
+    "title": "Sign Up",
+    "name": "Full Name",
+    "email": "Email Address",
+    "password": "Password",
+    "signup": "Sign Up",
+    "have_account": "Already have an account?",
+    "login": "Login"
+  }
+}

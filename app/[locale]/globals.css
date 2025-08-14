@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+@theme {
+  --color-bg-body: #0f282f;
+  --color-primary: #45c68b;
+  --color-bg-app: hsl(193deg 52% 12% / 50%);
+}
+
+body {
+  background-color: var(--color-bg-body);
+  overflow-x: hidden;
+}
