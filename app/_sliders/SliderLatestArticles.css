@@ -1,0 +1,17 @@
+.SliderLatestArticles .swiper {
+  width: 100%;
+  height: auto;
+  padding: 10px 0;
+}
+
+.SliderLatestArticles .swiper-slide {
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: start;
+}
+
+.SliderLatestArticles .swiper-slide > div {
+  height: 100%;
+  width: 100%;
+}

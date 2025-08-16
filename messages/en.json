@@ -46,9 +46,9 @@
   },
   "Last_Projects_Heading": {
     "white": "Explore My",
-    "primry": "Last Projects"
+    "primry": "Last Projects",
+    "Last_Projects_AC": "Browse All Projects"
   },
-  "Last_Projects_AC": "Browse All Projects",
   "Action_Buttons": {
     "cv": "Download CV",
     "contact": "Contact Info"

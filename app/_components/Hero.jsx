@@ -4,8 +4,8 @@ import Link from "next/link";
 import { BiSolidCube } from "react-icons/bi";
 import { LuFileSpreadsheet } from "react-icons/lu";
 
-async function Hero({ params }) {
-  const res = await fetch(`${BASE_URL}/api/hero-sc?locale=${params}`);
+async function Hero({ locale }) {
+  const res = await fetch(`${BASE_URL}/api/hero-sc?locale=${locale}`);
   if (!res.ok) {
     throw new Error(`HTTP error! status: ${res.status}`);
   }

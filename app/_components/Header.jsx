@@ -63,7 +63,7 @@ function Header() {
 
       <header
         className={`px-3 md:px-10 py-5 fixed z-50 top-0 left-0 w-full h-[100px] flex flex-row items-center justify-center border-b-2 border-white/50 ${
-          isFixed ? "bg-bg-body/30 backdrop-blur-md shadow-sm" : ""
+          isFixed ? "bg-bg-body/50 backdrop-blur-lg shadow-sm" : ""
         }`}
       >
         <div className="max-w-full md:max-w-[1350px] h-full w-full flex flex-row items-center justify-between">

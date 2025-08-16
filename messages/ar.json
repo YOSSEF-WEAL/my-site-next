@@ -35,8 +35,12 @@
   },
   "Tech_Stack_Heading": { "white": "", "primry": "تقنياتي" },
   "Projects_Card": { "Read_btn": "قراءه المزيد" },
-  "Last_Projects_Heading": { "white": "تصفح", "primry": "اخر المشاريع" },
-  "Last_Projects_AC": " جميع المشاريع",
+  "Last_Projects_Heading": {
+    "white": "تصفح",
+    "primry": "اخر المشاريع",
+    "Last_Projects_AC": " جميع المشاريع"
+  },
+
   "Action_Buttons": { "cv": "السيرة الذاتية", "contact": "معلومات التواصل" },
   "Projects_Page": {
     "all": "الجميع",
