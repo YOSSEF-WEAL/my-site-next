@@ -31,7 +31,7 @@ export const metadata = {
     locale: "en_US",
     images: [
       {
-        url: "https://portfolio-yossef-weal.netlify.app/images/about-og.jpg",
+        url: "https://portfolio-yossef-weal.netlify.app/logo.png",
         width: 1200,
         height: 630,
         alt: "About Yossef Weal",

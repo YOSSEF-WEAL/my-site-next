@@ -4,6 +4,7 @@ import { Dialog, DialogBackdrop, DialogPanel } from "@headlessui/react";
 import { useAppLocale } from "../_providers/LocaleProvider";
 import { BASE_URL } from "../_api/apisConfig";
 import Image from "next/image";
+import { FaXmark } from "react-icons/fa6";
 
 function PopupCertificate({ open, setOpen, certificate }) {
   const locale = useAppLocale();
@@ -20,10 +21,10 @@ function PopupCertificate({ open, setOpen, certificate }) {
           <div className="flex min-h-full justify-center p-4 text-center items-center sm:p-0">
             <DialogPanel
               transition
-              className="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-xl shadow-bg-body transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-lg data-closed:sm:translate-y-0 data-closed:sm:scale-95"
+              className="relative transform overflow-hidden rounded-2xl bg-white text-left shadow-xl shadow-bg-body transition-all data-closed:translate-y-4 data-closed:opacity-0 data-enter:duration-300 data-enter:ease-out data-leave:duration-200 data-leave:ease-in sm:my-8 sm:w-full sm:max-w-[70%] data-closed:sm:translate-y-0 data-closed:sm:scale-95"
             >
-              <div className="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
-                <div className="flex flex-col items-start justify-start gap-2">
+              <div className="bg-white relative px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                <div className="flex md:flex-row flex-col items-start justify-start gap-2">
                   <Image
                     src={`${BASE_URL}${certificate.certificateImage?.url}`}
                     alt={certificate.courseName}
@@ -31,20 +32,28 @@ function PopupCertificate({ open, setOpen, certificate }) {
                     height={400}
                     className="rounded-[10px] object-cover"
                   />
-                  <h4
-                    className={`text-[20px] md:text-2xl font-bold text-gray-900 ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {certificate.courseName}
-                  </h4>
-                  <p
-                    className={`text-[14px] md:text-base text-gray-800 ${
-                      locale === "ar" ? "text-right" : ""
-                    }`}
-                  >
-                    {certificate.courseDescription}
-                  </p>
+                  <div className="flex flex-col gap-4">
+                    <h4
+                      className={`text-[20px] md:text-2xl font-bold text-gray-900 ${
+                        locale === "ar" ? "text-right" : ""
+                      }`}
+                    >
+                      {certificate.courseName}
+                    </h4>
+                    <p
+                      className={`text-[14px] md:text-base text-gray-800 ${
+                        locale === "ar" ? "text-right" : ""
+                      }`}
+                    >
+                      {certificate.courseDescription}
+                    </p>
+                    <button
+                      onClick={() => setOpen(!open)}
+                      className="bg-red-500/80 absolute top-2 left-2 cursor-pointer transition-all hover:bg-red-500 hover:fill-white w-10 h-10 rounded-full flex items-center justify-center"
+                    >
+                      <FaXmark size={22} className="" />
+                    </button>
+                  </div>
                 </div>
               </div>
             </DialogPanel>

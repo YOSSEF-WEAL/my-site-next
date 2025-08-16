@@ -34,7 +34,7 @@ function ProjectCard({ projects }) {
                 ))}
               </div>
               <Link
-                href={`/project/${project.id}`}
+                href={`/projects/${project.documentId}`}
                 className="text-2xl md:text-3xl font-bold transition-all hover:text-primary"
               >
                 {project.ProjectName}
@@ -60,7 +60,7 @@ function ProjectCard({ projects }) {
                 )}
 
                 <Link
-                  href={`/project/${project.id}`}
+                  href={`/projects/${project.documentId}`}
                   className="flex items-center justify-center h-11 rounded-full transition-all hover:bg-primary bg-white/20 backdrop-blur-xs py-1 px-3"
                 >
                   {t("Read_btn")}

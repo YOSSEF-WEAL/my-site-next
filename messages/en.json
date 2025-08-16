@@ -191,8 +191,23 @@
   },
 
   "Contact_Me_Page": {
-    "error": "An error occurred while loading Contact Page"
+    "Heding": {
+      "white": "Contact",
+      "primry": "Me"
+    },
+    "form": {
+      "title": "Fill out the form and I will contact you",
+      "Name": "Full name",
+      "Mail": "E-mail",
+      "Number": "Phone Number",
+      "Subject": "Subject",
+      "Massege": "Your massege Here...",
+      "Send_Button": "Send Massege",
+      "Cancel_Button": "Cancel"
+    },
+    "Follow_Me": "Follow Me"
   },
+
   "Login_Page": {
     "title": "Login",
     "email": "Email Address",

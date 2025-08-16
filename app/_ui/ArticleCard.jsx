@@ -27,7 +27,7 @@ function ArticleCard({ article }) {
       </Link>
       <div className="flex flex-col p-1.5 gap-2 ">
         <div className="flex items-center w-full absolute top-2.5 z-10">
-          {article.blog_categories.map((cat, i) => (
+          {article.blog_categories?.map((cat, i) => (
             <p
               className="text-[12px] bg-primary px-4 font-semibold py-2 w-fit rounded-full"
               key={i}
