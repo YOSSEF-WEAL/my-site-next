@@ -62,7 +62,7 @@ function Header() {
       </div>
 
       <header
-        className={`px-3 md:px-10 py-5 fixed z-50 top-0 left-0 w-full h-[100px] flex flex-row items-center justify-center border-b-2 border-white/50 ${
+        className={`px-3 md:px-10 py-5 fixed z-50 top-0 left-0 w-full h-[100px] flex flex-row items-center justify-center border-b-2 border-white/50  ${
           isFixed ? "bg-bg-body/50 backdrop-blur-lg shadow-sm" : ""
         }`}
       >

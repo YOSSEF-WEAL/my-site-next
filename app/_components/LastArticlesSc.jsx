@@ -4,7 +4,6 @@ import Link from "next/link";
 import { getTranslations } from "next-intl/server";
 import { BASE_URL } from "../_api/apisConfig";
 import SliderLatestArticles from "../_sliders/SliderLatestArticles";
-// import SliderLatestArticles from "../_sliders/SliderLatestArticles";
 
 async function LastArticlesSc({ locale }) {
   const t = await getTranslations({

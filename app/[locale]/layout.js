@@ -9,6 +9,7 @@ import path from "path";
 import AOSWrapper from "../_components/AOSWrapper";
 import Header from "../_components/Header";
 import { LocaleProvider } from "../_providers/LocaleProvider";
+import Footer from "../_ui/Footer";
 
 // Fonts
 const geistSans = Geist({
@@ -31,29 +32,28 @@ export const metadata = {
     "Welcome to my digital space! I'm a Front-End Web Developer and UI/UX Designer with over two years of experience. I build modern web apps with Next.js, React, and Tailwind CSS, plus fully functional websites with WordPress and Strapi, featuring custom front-end designs. I focus on efficient, user-friendly experiences with seamless backend integration.",
 };
 
-export function generateStaticParams()
-{
+export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
 }
 
-export default async function LocaleLayout({ children, params })
-{
+export default async function LocaleLayout({ children, params }) {
   const { locale } = params;
 
-  if (!routing.locales.includes(locale))
-  {
+  if (!routing.locales.includes(locale)) {
     notFound();
   }
 
-  const messagesFilePath = path.join(process.cwd(), "messages", `${locale}.json`);
+  const messagesFilePath = path.join(
+    process.cwd(),
+    "messages",
+    `${locale}.json`
+  );
   let messages = {};
 
-  try
-  {
+  try {
     const fileContents = fs.readFileSync(messagesFilePath, "utf8");
     messages = JSON.parse(fileContents);
-  } catch (error)
-  {
+  } catch (error) {
     console.error(`❌ Error loading messages for locale "${locale}":`, error);
     notFound();
   }
@@ -61,13 +61,16 @@ export default async function LocaleLayout({ children, params })
   return (
     <html lang={locale} dir={locale === "ar" ? "rtl" : "ltr"}>
       <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white max-w-full md:max-w-[1350px] mx-auto`}
+        className={`${geistSans.variable} ${geistMono.variable} antialiased text-white `}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
           <AOSWrapper>
             <LocaleProvider>
               <Header />
-              <main>{children}</main>
+              <main className="max-w-full md:max-w-[1350px] mx-auto">
+                {children}
+              </main>
+              <Footer />
             </LocaleProvider>
           </AOSWrapper>
         </NextIntlClientProvider>

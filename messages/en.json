@@ -121,9 +121,75 @@
       }
     }
   },
+
   "About_Page": {
-    "error": "An error occurred while loading About Page"
+    "About_Hero_Error": "There was an error loading Data",
+    "About_Me": {
+      "title": "About Me",
+      "content_1": "I started my journey in web development more than two years ago, beginning with HTML and CSS. Since then, I’ve grown into building full-stack applications using JavaScript, React, and Next.js. I've worked on real-world projects including dashboards and e-commerce platforms.",
+      "content_2": "I'm always working to improve my skills—whether through personal projects or exploring new technologies like TypeScript and Framer Motion. I enjoy tackling technical challenges that require simple and practical solutions.",
+      "content_3": "My goal is to combine clean code with modern design to ensure every project I work on is both functional and user-friendly—for both clients and end-users."
+    },
+    "My_Approach": {
+      "title": "My Development Approach",
+      "approach_1": "Write clean, maintainable code.",
+      "approach_2": "Focus on delivering smooth user experiences",
+      "approach_3": "Build scalable, future-ready applications",
+      "approach_4": "Keep learning and improving with every project"
+    },
+    "Certificates": {
+      "title": "My Certificates"
+    },
+    "My_Offer": {
+      "title": "What I Offer",
+      "offer_1": {
+        "title": "Full Stack Development",
+        "description": "End-to-end web development from frontend interfaces to backend architecture, with optimized performance and integration."
+      },
+      "offer_2": {
+        "title": "API Development",
+        "description": "Designing and building secure, well-documented RESTful and GraphQL APIs."
+      },
+      "offer_3": {
+        "title": "User Interface Development",
+        "description": "Creating modern, responsive UIs with a focus on detail, smooth animations, and usability."
+      }
+    },
+    "Questions_Sc": {
+      "title": "Questions",
+      "Questions": {
+        "q1": {
+          "question": "Do you provide full website development services from design to deployment?",
+          "answer": "Yes, absolutely. I offer flexible solutions based on each project's requirements and the client's needs. I can build fully custom projects using modern technologies when flexibility is a priority, or I can work with content management systems (CMS) like Strapi or WordPress if that suits the budget or timeline better. Every project starts with a deep understanding of the goals, then I suggest the best technical solution to ensure efficiency, ease of use, and fast delivery. Whether you need a dynamic website from scratch, a custom dashboard, or enhancements to an existing system — I’ve got you covered."
+        },
+        "q2": {
+          "question": "What is the estimated time to complete a project?",
+          "answer": "Project duration depends on several factors such as size, type of services, number of pages or screens, and whether it's custom development or built with a CMS like Strapi or WordPress. As a rough estimate: Simple projects or landing pages: 3–7 days. Small to medium business websites (using a CMS): 1–3 weeks. Fully custom projects with dashboards: 3–6 weeks or more depending on complexity. After defining the requirements, I provide a clear timeline and always aim to deliver on time with high quality."
+        },
+        "q3": {
+          "question": "Do you offer technical support or maintenance after project delivery?",
+          "answer": "Yes, I provide technical support and periodic maintenance after project delivery, but this is agreed upon beforehand based on the project's nature and client needs. Support can include updates, bug fixes, or regular improvements to ensure site stability and performance. The duration and form of support vary depending on the size of the project — and in many cases, a monthly support package is agreed upon for a fixed fee. The goal is to keep your project safe and up-to-date at all times."
+        },
+        "q4": {
+          "question": "Can I review the project during the development process?",
+          "answer": "Yes, during the project execution, each major part is delivered to the client for review and feedback before moving to the next phase. This ensures the client stays updated and confirms everything is on the right track. Reviews are done based on completed sections (not just drafts), which helps minimize revisions later and ensures client satisfaction at every step."
+        },
+        "q5": {
+          "question": "Can I request modifications after the project is completed?",
+          "answer": "Yes, post-delivery changes are possible, as long as they fall within the original scope — or a separate cost is agreed upon for additional features. My goal is always your complete satisfaction, but larger or out-of-scope edits are handled professionally and transparently."
+        },
+        "q6": {
+          "question": "Can you work on an existing website and improve it?",
+          "answer": "Absolutely. I can improve or modify existing websites — whether in terms of performance, design, user experience, or adding new features. I start by reviewing the current state of the website, then provide a clear improvement plan tailored to your needs and goals."
+        },
+        "q7": {
+          "question": "Do you offer hosting solutions for projects?",
+          "answer": "Yes, I manage my own shared hosting environment and use it to host projects either temporarily or permanently based on the project’s requirements. The hosting I provide is not only suitable for simple websites or WordPress — it's powerful enough to handle advanced applications like Node.js projects, including content management systems like Strapi. I already host live projects using Strapi + React and WordPress with excellent performance. This gives clients a ready and proven hosting solution without the hassle of external setup. If the project requires more resources, I can recommend alternatives like VPS or cloud hosting — but in most cases, my current hosting setup covers everything efficiently. The goal is always to deliver a stable, cost-effective, and well-matched environment for your project."
+        }
+      }
+    }
   },
+
   "Contact_Me_Page": {
     "error": "An error occurred while loading Contact Page"
   },

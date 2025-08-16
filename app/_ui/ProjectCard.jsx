@@ -3,6 +3,7 @@ import { FaBehance } from "react-icons/fa";
 import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { BASE_URL } from "../_api/apisConfig";
+import Image from "next/image";
 
 function ProjectCard({ projects }) {
   const t = useTranslations("Projects_Card");
@@ -15,10 +16,11 @@ function ProjectCard({ projects }) {
             className="relative overflow-hidden w-full min-h-[350px] rounded-[20px]"
             key={project.id}
           >
-            <img
+            <Image
               className="w-full h-full object-cover -z-8 min-h-[350px]"
               src={`${BASE_URL}${project.FeaturedImage.url}`}
               alt={project.ProjectName}
+              fill
             />
             <div className="absolute p-3 z-10 h-full top-0 right-0 w-full bg-gradient-to-b from-teal-950/0 to-teal-950/90 flex flex-col justify-end items-start text-white gap-2">
               <div className="flex flex-row gap-1 items-start">

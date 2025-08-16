@@ -2,6 +2,7 @@ import Link from "next/link";
 import { useTranslations } from "next-intl";
 import { BASE_URL } from "../_api/apisConfig";
 import { useAppLocale } from "../_providers/LocaleProvider";
+import Image from "next/image";
 
 function ArticleCard({ article }) {
   const t = useTranslations("Projects_Card");
@@ -15,9 +16,10 @@ function ArticleCard({ article }) {
     >
       <Link
         href={`articles/${article.documentId}`}
-        className="overflow-hidden w-full h-60 z-8"
+        className="relative overflow-hidden w-full h-60 z-8"
       >
-        <img
+        <Image
+          fill
           src={`${BASE_URL}${article.Featured_Image?.url}`}
           alt={article.title}
           className="w-full h-full rounded-3xl object-cover transition-all hover:grayscale-50"
